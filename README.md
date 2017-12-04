@@ -3,4 +3,4 @@
 Implementation of a complete weather app
 
 ## Using:
-React, Redux, Open Weather API, Bootstarp 
+React, Redux, Open Weather API, Bootstarp , Redux_Promise
