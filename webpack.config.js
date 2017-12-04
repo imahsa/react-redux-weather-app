@@ -3,7 +3,7 @@ module.exports = {
     './src/index.js'
   ],
   output: {
-    path: __dirname,
+    path: '/Users/Mahsa_Surface/Desktop/Projects/react-redux-weather-app/build',
     publicPath: '/',
     filename: 'bundle.js'
   },
