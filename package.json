@@ -1,5 +1,5 @@
 {
-  "name": "redux-simple-starter",
+  "name": "react redux weather app",
   "version": "1.0.0",
   "description": "Implementation of a complete weather app",
   "main": "index.js",
@@ -9,11 +9,8 @@
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
-    "build": "webpack -p",
     "postinstall": "webpack -p",
     "start": "node server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "author": "Mahsa Mohammadi",
   "license": "ISC",
@@ -42,6 +39,7 @@
     "react-router": "^2.0.1",
     "react-sparklines": "^1.6.0",
     "redux": "^3.0.4",
-    "redux-promise": "^0.5.3"
+    "redux-promise": "^0.5.3",
+    "webpack": "^1.12.9",
   }
 }
