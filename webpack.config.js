@@ -4,7 +4,7 @@ module.exports = {
   ],
   output: {
     path: '/Users/Mahsa_Surface/Desktop/Projects/react-redux-weather-app/build',
-    publicPath: '/',
+    publicPath: 'http://imahsa.github.io/',
     filename: 'bundle.js'
   },
   module: {
@@ -21,6 +21,6 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './build'
   }
 };
