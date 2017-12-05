@@ -1,5 +1,5 @@
 {
-  "name": "react redux weather app",
+  "name": "weatherApp",
   "version": "1.0.0",
   "description": "Implementation of a complete weather app",
   "main": "index.js",
